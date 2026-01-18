@@ -29,10 +29,30 @@
     color: white;
     border: none;
     font-weight: 600;
+    display: inline-flex;
+        gap: 5px;
+
 }
 .bg{
     background-color: #1A0B2E;
 
+}
+.noraml-font{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.headings{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: white;
+}
+
+.regular-font{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    opacity: 80%;
 }
 
 
@@ -61,10 +81,91 @@
     
 }
 .gp {
-    display: flex;
-    gap: 5px;
+    gap: 8px;
 }
 
 .list   {
     gap: 32px;
+}
+.btn-margin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bg-2{
+    
+}
+.second-section {
+    background-image: url(../assets/hero-bg.png);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.icon{
+    position: relative;
+    
+}
+.microphone{
+    position: absolute;
+   top: 50%;
+        left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.new{
+    position: absolute;
+    /* color: white; */
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 1rem;
+    font-weight: 600;
+    top: 20px;
+    right:23px;
+}
+.circle {
+
+    top: 50%;
+        left: 50%;
+}
+.singing-card {
+    /* border: 2px red solid; */
+    height: 555px;
+    width: 558px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 101px 525px 101px 520px;
+
+}
+.singcard-des{
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+.singcard-des p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.des-b{
+    display: inline-flex;
+    gap: 8px;
+}
+.btn-2 {
+    border:#00FF88 solid 2px ;
+    background-color: transparent;
+    color: #00FF88;
+    border-radius: 100px;
+    padding: 10px 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
 }
