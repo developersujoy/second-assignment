@@ -97,11 +97,11 @@
 .second-section {
     background-image: url(../assets/hero-bg.png);
         
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         
 }
 
