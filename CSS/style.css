@@ -381,7 +381,17 @@ grid-column: span 1;
     height: 40px;
     border-radius: 50%;
     justify-content: center;
+    align-items: center;
 }
+.icon-bd a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
 .sixth-section-main-cild{
     display: flex;
     flex-direction: column;
@@ -398,7 +408,7 @@ grid-column: span 1;
 
 .sixth-icons-child{
     display: inline-flex;
-    gap: 8px;
+    gap: 10px;
     
 }
 .footer-bg{
@@ -408,4 +418,11 @@ grid-column: span 1;
 .clock img {
     height: 20px;
     width: 20px;
+}
+a {
+    text-decoration: none;
+}
+.sixth-icons-child img {
+    height: 20px;
+        width: 20px;    
 }
