@@ -127,6 +127,7 @@
     padding-right: 200px;
     padding-top: 16px;
         padding-bottom: 16px;
+   
 }
 .navigation {
     /* border: 2px yellow solid; */
@@ -174,7 +175,7 @@
         align-items: center;
         justify-content: center; */
         padding: 101px 520px 120px 525px;
-       
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .icon{
@@ -582,5 +583,44 @@ a {
     }
     .icon-contain{
         justify-content: center;
+    }
+    .sixth-section-main-cild{
+        padding: 0;
+        display: flex;
+        
+        
+    }
+    .sixth-section-main{
+        /* padding: 40px 20px; */
+    }
+    .sixth-icons {
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .sixth-icons-child{
+        flex: 0 50%
+        
+        justify-content: center;
+    }
+    .m-footer-logo {
+        height: 32px;
+        width: 219px;
+        margin-top: 40px;
+    }
+    .set-border{
+        
+        background-position: center;
+        background-size: cover;
+        /* padding: 40px 20px; */
+
+    }
+    .abc{
+        background-color: #201143;
+        height: 40px;
     }
 }
