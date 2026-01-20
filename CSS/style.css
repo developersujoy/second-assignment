@@ -481,6 +481,9 @@ a {
     justify-content: center;
    
    }
+   .icons-v{
+    font-size: 2.5rem;
+   }
    .singing-card {
     width: 100%;
         max-width: 400px;
@@ -526,7 +529,9 @@ a {
      .icons {
             grid-template-columns: repeat(2, 1fr);
             justify-items: center;
+            
             margin-top: 40px;
+            
         }
     .icons-m {
         margin-bottom: 40px;
@@ -549,14 +554,29 @@ a {
         
     }
     .big-contain{
-        padding: 40px;
+        padding: 24px;
         margin-bottom: 16px;
     }
     .b{
         margin: 0px;
+        padding: 24px;
     }
       .mb{
         margin-bottom: 16px;
+      }
+      .mf-22{
+        font-size: 1.375rem;
+      }
+      .mf-20{
+        font-size:1.25rem;
+        margin-top: 0;
+        margin-bottom:8px;
+      }
+      .mf-24{
+        font-size:1.5rem ;
+      }
+      .video-description-contain{
+        padding:16px
       }
     .videos-card{
         display: flex;
