@@ -139,9 +139,9 @@
     margin-right: 200px; */
 }
 .btn-animate{
-    animation: pulseOnly 1.6s infinite ease-in-out;
+    animation: pulse 1.6s infinite ease-in-out;
 }
-@keyframes pulseOnly {
+@keyframes pulse {
     0% {
         transform: scale(1);
     }
