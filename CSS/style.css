@@ -138,8 +138,20 @@
     margin-left: 200px;
     margin-right: 200px; */
 }
-
-
+.btn-animate{
+    animation: pulseOnly 1.6s infinite ease-in-out;
+}
+@keyframes pulseOnly {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .nchile-2 ul{
     list-style-type: none;
     
